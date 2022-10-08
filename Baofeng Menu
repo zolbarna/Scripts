@@ -1,0 +1,46 @@
+lock : press and hold the key button
+Menu:
+	0 SQL 	/Zajzár 									/2
+	2 TXP 	/Adásteljesítmény							/High
+	3 Save 	/ Battery Saver / Listening frequency		/Off
+	4 VOX	/ Voice activated transmit					/Off
+	5 WN	/ Channel bandwodth Wide Band / Narrow Band	/Narrow 2.5khx tx (N signal on the top)
+	6 ABR	/ Automatic Backlight second				/5
+	7 TDR	/ Dual receive on/off						/ON (S signal on the top)
+	8 BEEP  / Keyboard Beep								/OFF
+	9 TOT	/ Talk out Timer in seconds					/60
+	10 RDCS / Receive DSC code							/OFF
+	11 RCTS / Receive CTSC code							/OFF
+	12 TDCS / Transmit DSC code							/OFF
+	13 TCTS / Transmit CTSC code						/OFF
+	14 Voice/ Voice language							/OFF
+	15 ANI-ID/ your ID / Mod only via sortware 			/80808
+	16 DTMFST/ Which ID Transmit??						/
+	17 S-Code/ Signal Code/ Mod only via sortware		/1
+	18 SC-REV/ Scanning Receive method					/TO stop and listen for a short time 
+														/CO start scanning when no signal
+														/SE stop scanning when first signal
+	19 PTT-ID/ Push to talk id from MENU 17 			/OFF EOT - End of Transmission
+														/    BOT - Begin of Transmission
+														/	 Both - Both
+	20 PTT-LT/ Lag time miliseconds before PTT-ID sent  / 3
+	21 MDF-A Name /Channel név vagy freq mutatása MR módban / Name / CH / Freq
+	22 MDF-B Name /Channel név vagy freq mutatása MR módban / Name / CH / Freq
+	23 BCL / Busy Channel Lockout 						/ON
+	24 Autolk / Autolock								/OFF
+	25 SFT-D  / Repeater mode setting					/OFF
+	26 Offset / Repeater mode setting					/OFF
+	27 MEM-CH
+	28 DEL-CH
+	29 WT-LED / Waiting mode led color 
+	30 RX-LED / Receiving mode led color
+	31 TX-LED / Transmit mode led color
+	32 AL-MODE / Alarm mode 							/Site
+	33 Band		/ Kb mint a BAND button
+	34 TDR-AB / Dual recive után hová térjen vissza		/B
+	35 STE / Tone adás után
+	36 RP-STE / Repeater Squach / Zajzár				/OFF
+	37 RPT-RL / Repeater wait miliseconds				/5
+	38 PONMSG / Welcome message
+	39 ROGER / Roger beep
+	40 RESET ALL
