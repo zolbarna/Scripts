@@ -1,0 +1,19 @@
+#!/bin/bash
+
+cert_types=("CSCA" "UPLOAD" "AUTHENTICATION" "DSC")
+declare -A endpoints=( [acc]="https://de.test.dscg.ubirch.com/trustList/" [prd]="https://de.dscg.ubirch.com/trustList/" )
+
+for arr_key in "${!endpoints[@]}"
+do
+        url=${endpoints[$arr_key]}
+        full=""
+        for typ in "${cert_types[@]}";
+        do
+                echo "we are in $url downloading $typ where key is $arr_key"
+#               response=$(echo "$response"|tail -n +2|jq .certificates)
+
+                response=$(echo "$(curl -sk ${url}/$typ)" | tail -n +2|jq .certificates)
+                full="$(echo -n "$full""$response" |jq -s 'add')"
+        done
+        echo "$full" > "trustlist_$arr_key.json"
+done
